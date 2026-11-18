@@ -67,8 +67,7 @@ The experiment has been validated on NVIDIA RTX A5000 (24GB)
     url = "https://aclanthology.org/2026.findings-emnlp.125/",
     doi = "10.18653/2026.findings-emnlp.125",
     pages = "2542--2561",
-    ISBN = "979-8-89176-462-0",
-    abstract = "Although Large Vision-Language Models (LVLMs) excel at single-image understanding tasks, their performance often degrades significantly when processing multi-image inputs due to unintended cross-image information leakage, in which visual content from different images is erroneously fused and image-specific contextual information is lost. Current approaches attempt to mitigate this by inserting special vision delimiter tokens between images during input formatting to help models distinguish image boundaries and preserve context. However, our analysis reveals that such delimiters alone yield limited gains because models do not sufficiently perceive or respond to these boundary signals. To address this, we propose Vision-Delimiter-aware Attention Head Modulation (VDAHM), a training-free method that modulates the output of delimiter-sensitive attention heads, reorienting the model{'}s internal attention flow to strengthen its structural perception of boundary signals. Extensive evaluations across multiple benchmarks, including Mantis, BLINK, MuirBench, and Qbench2, demonstrate that VDAHM consistently improves LVLMs performance with virtually no additional computational cost. The source code is available at [https://github.com/ZeroNLP/VDAHM](https://github.com/ZeroNLP/VDAHM)."
+    ISBN = "979-8-89176-462-0"
 }
 ```
 
