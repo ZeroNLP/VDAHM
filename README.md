@@ -1,5 +1,3 @@
-**We sincerely appreciate your time reviewing this code, especially during this era of surging submission volumes. **
-
 # Setup
 
 ```python
